@@ -1,12 +1,10 @@
 # Auto-Build
 自动构建termux主程序   
 并汉化其UI文字   
-Apk同步上传到蓝奏云   
-https://api.funs.ml/lzy_dir/api.php?fdir=b0evwprqb
+Apk上传到WeTransfer   
 
-启动自动构建请点击https://api.funs.ml/auto_build/   
-如果检测到新版本将会自动构建
-
-备用链接:
-https://api.xda.plus/lzy_dir/api.php?fdir=b0evwprqb
-https://api.xda.plus/auto_build/
+使用：
+  打开Actions-Auto 
+  点击Build Termux App
+  点击Run workflow
+  再点击Run workflow
