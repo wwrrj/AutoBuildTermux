@@ -28,8 +28,8 @@ jobs:
         cp -r terminal-view/src/main/res/values terminal-view/src/main/res/values-zh-rCN
 
         # add double tap hide/show keyboard
-        sed -i '208a InputMethodManager imm = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);' terminal-view/src/main/java/com/termux/view/TerminalView.java
         sed -i '208a imm.toggleSoftInput(0, 0);' terminal-view/src/main/java/com/termux/view/TerminalView.java
+        sed -i '208a InputMethodManager imm = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);' terminal-view/src/main/java/com/termux/view/TerminalView.java
 
         # add layout to default
         sed -i '165a putAll(lessKnownCharactersDisplay);' app/src/main/java/com/termux/app/ExtraKeysInfos.java
