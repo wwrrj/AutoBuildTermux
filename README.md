@@ -3,7 +3,7 @@
 并汉化其UI文字   
 Apk上传到WeTransfer   
 
-使用：
+使用：  
   打开Actions-Auto  
   点击Build Termux App  
   点击Run workflow  
