@@ -7,7 +7,6 @@ Apk上传到WeTransfer
   打开Actions  
   点击Auto Build Termux App  
   点击Run workflow  
-  再点击Run workflow  
 
 # 计划添加功能：
   双指上滑打开键盘  
